@@ -8,7 +8,6 @@ Option Strict On
 Option Explicit On
 Option Compare Text
 Module Accumulate
-
     Sub Main()
         Dim userInput As String
         Do
@@ -16,9 +15,6 @@ Module Accumulate
             userInput = Console.ReadLine()
             UsersStuff(userInput, False)
             Console.WriteLine(UsersStuff("", False))
-
-
-
         Loop While userInput <> "Q"
         Console.Read()
     End Sub
